@@ -1,0 +1,389 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    width: 1440px;
+    height: 700px;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 12px;
+  
+    width: 1024px;
+    height: 700px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  .bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 10px;
+  
+    width: 1000px;
+    height: 48px;
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .month-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 220px;
+    height: 24px;
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+/* ------------------------------------ */
+  .btn-icon:hover {
+    background-color: #f4f4f4;
+  }
+  /* ----------------------------------- */
+  .btn-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+  
+    width: 32px;
+    height: 24px;
+  
+    background: #ffffff;
+  
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    /* transform: rotate(-180deg); */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+    width: 20px;
+    height: 20px;
+
+    fill-opacity: .6;
+  
+    transform: rotate(-180deg);
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+  }
+
+  .icon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+    width: 20px;
+    height: 20px;
+
+    fill-opacity: .6;
+  
+    /* transform: rotate(-180deg); */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+  }
+  
+  /* .arrow {
+    width: 12px;
+    height: 15.93px;
+  
+    background: #6b6b6b;
+    transform: rotate(-180deg);
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  } */
+  
+  .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+    width: 108px;
+    height: 21px;
+  
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+  }
+  
+  .mounth {
+    width: 108px;
+    height: 21px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #292929;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .extra-button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .extra-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+  
+    width: 59px;
+    height: 18px;
+  
+    background: #ffffff;
+  
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .btn-title-extra {
+    width: 47px;
+  height: 14px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #292929;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  
+    width: 1000px;
+    height: 600px;
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    width: 1000px;
+    height: 120px;
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .cell {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+  
+    width: 143px;
+    height: 120px;
+  
+    background: #ffffff;
+  
+    border: 1px solid #292929;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .headding {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 127px;
+  height: 16px;
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+  
+  .headding-text {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 111px;
+  height: 16px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .headding-date {
+    width: 111px;
+  height: 16px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #6B6B6B;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .title {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 127px;
+  height: 16px;
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+  
+  .title-text {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 51px;
+  height: 16px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .title-date {
+    display: none;
+  width: 51px;
+  height: 16px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #292929;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  .description {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  width: 127px;
+  height: 56px;
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 1;
+  }
+  
+  .description-text {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  
+  width: 0px;
+  height: 16px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .description-date {
+  width: 0px;
+  height: 16px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
